@@ -1,5 +1,9 @@
 [
   {
+    "id": "accordion",
+    "components": ["accordion-item"]
+  }
+  {
     "id": "main",
     "components": [
       "section"
@@ -39,9 +43,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "accordion",
-    "components": ["accordion-item"]
   }
 ]

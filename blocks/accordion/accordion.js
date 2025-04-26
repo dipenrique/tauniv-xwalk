@@ -3,6 +3,7 @@
  * Recreate an accordion
  * https://www.hlx.live/developer/block-collection/accordion
  */
+import { moveInstrumentation } from '../../scripts/scripts.js';
 
 function hasWrapper(el) {
   return !!el.firstElementChild && window.getComputedStyle(el.firstElementChild).display === 'block';
@@ -26,6 +27,7 @@ export default function decorate(block) {
     }
     // decorate accordion item
     const details = document.createElement('details');
+    moveInstrumentation(row, details);
     details.className = 'accordion-item';
     details.append(summary, body);
     row.replaceWith(details);

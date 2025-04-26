@@ -1,5 +1,9 @@
 [
   {
+    "id": "accordion",
+    "components": ["accordion-item"]
+  }
+  {
     "id": "main",
     "components": [
       "section"
@@ -16,7 +20,8 @@
       "cards",
       "columns",
       "fragment",
-      "quote"
+      "quote",
+      "accordion","accordion-item"
     ]
   },
   {
